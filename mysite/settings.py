@@ -22,6 +22,8 @@ SECRET_KEY = 'g6qto$mizm5x_@6+k7%oaiam3es_p0+lo1nqhfet&kufbhd2d^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+TEMPLATE_DEBUG = True
+
 ALLOWED_HOSTS = []
 
 
@@ -82,16 +84,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Templates
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'APP_DIRS': True,
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
-        'OPTIONS': {
-            'context_processors': 
-                ['django.contrib.auth.context_processors.auth'],
-            'debug': True
-        }
-
-    },
-]
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
