@@ -19,7 +19,7 @@ A complete video guide to setting this project up to run on Circle is available 
 ##Testing on CircleCI
 Just sign up for CircleCI if you haven’t already, fork the repo on GitHub (or clone it and add it to your own GitHub account), follow the repository on CircleCI, and your first build/test will begin immediately. Coverage measurement will be performed and the output saved to the “Build Artifacts” for that CircleCI build.
 
-Udpated to Django 1.9
+Updated to Django 1.9
 
 ##See Also
 * The [virtualenv](http://virtualenv.readthedocs.org/en/latest/) and [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/) docs
